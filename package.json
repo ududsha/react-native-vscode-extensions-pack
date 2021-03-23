@@ -1,0 +1,50 @@
+{
+	"name": "react-native-vscode-extensions-pack",
+	"displayName": "react-native-vscode-extensions-pack",
+	"description": "Extensions pack for react native developers who use visual code for development",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:react-native-vscode-extensions-pack.helloWorld"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "react-native-vscode-extensions-pack.helloWorld",
+				"title": "Hello World"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.54.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.19.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.2.1",
+		"typescript": "^4.1.3",
+		"vscode-test": "^1.5.0"
+	},
+	"extensionPack": [
+		"esbenp.prettier-vscode",
+		"msjsdiag.vscode-react-native",
+		"dsznajder.es7-react-js-snippets",
+		"abdullahceylan.vscode-react-native-component-generator",
+		"flowtype.flow-for-vscode",
+		"VisualStudioExptTeam.vscodeintellicode"
+	],
+	"repository": "https://github.com/ududsha/react-native-vscode-extensions-pack",
+	"publisher": "ududsha"
+}
