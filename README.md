@@ -14,7 +14,7 @@ This extensions pack include the below extensions:
 
 ## Requirements
 
-There is no dependecy to inclide this plugins. But you need to configure the extensions to work with your own rules. Otherwise it will work with default settings.
+There is no dependecy to include this plugins. But you need to configure the extensions to work with your own rules. Otherwise it will work with default settings.
 
 ### 1.0.0
 
